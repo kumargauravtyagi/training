@@ -1,0 +1,27 @@
+.logo 
+{
+    font-size: 30px;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo a
+{
+	text-decoration: none;
+	color: #106eea;
+}
+
+.logo a:hover
+{
+	color: #106eea;
+}
+
+
+.navbar-nav .nav-link .active
+{
+	color: #222222;
+}
