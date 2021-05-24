@@ -24,9 +24,27 @@
             //alert("Hello World");
             //document.write("Hi Gaurav");
             //console.log(5);
+            var myName = "Gaurav"; // Define a string variable
+
+            var Age=32; // Define a number
+
+            var car = {type:"Fiat", model:"500", color:"white"}; // Define a object variable
+
             setTimeout(function(){
               document.getElementById('alert1').innerHTML="Hello Team"
             }, 3000);
+
+            setTimeout(function(){
+              document.getElementById('alert2').innerHTML=myName
+            }, 5000);
+
+            setTimeout(function(){
+              document.getElementById('alert3').innerHTML=Age
+            }, 7000);
+
+            setTimeout(function(){
+              document.getElementById('alert4').innerHTML="My car is a " + car.type + "<br> My car color is " + car.color
+            }, 10000);
             
             //document.getElementById('alert2').innerHTML="Hello Team";
             //document.getElementById('alert3').innerHTML="Hello Team";
