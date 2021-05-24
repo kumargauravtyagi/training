@@ -12,7 +12,10 @@
     <title>JavaScript Training</title>
   </head>
   <body>
-        <div class="alert alert-primary" id="alert1">Hello Gaurav</div>
+        <div class="alert alert-primary" id="alert1">Alert Primary</div>
+        <div class="alert alert-success" id="alert2">Alert Success</div>
+        <div class="alert alert-warning" id="alert3">Alert Warning</div>
+        <div class="alert alert-danger" id="alert4">Alert Danger</div>
 
 
 
@@ -21,7 +24,13 @@
             //alert("Hello World");
             //document.write("Hi Gaurav");
             //console.log(5);
-            document.getElementById('alert1').innerHTML="Hello Team";
+            setTimeout(function(){
+              document.getElementById('alert1').innerHTML="Hello Team"
+            }, 3000);
+            
+            //document.getElementById('alert2').innerHTML="Hello Team";
+            //document.getElementById('alert3').innerHTML="Hello Team";
+            //document.getElementById('alert4').innerHTML="Hello Team";
         </script>
         
   </body>
