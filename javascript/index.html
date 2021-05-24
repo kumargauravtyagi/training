@@ -16,6 +16,7 @@
         <div class="alert alert-success" id="alert2">Alert Success</div>
         <div class="alert alert-warning" id="alert3">Alert Warning</div>
         <div class="alert alert-danger" id="alert4">Alert Danger</div>
+        <div id="fruits"></div>
 
 
 
@@ -29,6 +30,8 @@
             var Age=32; // Define a number
 
             var car = {type:"Fiat", model:"500", color:"white"}; // Define a object variable
+
+            var friuts = ["Mango", "Apple", "Guvava", "Banana"];
 
             setTimeout(function(){
               document.getElementById('alert1').innerHTML="Hello Team"
@@ -45,6 +48,10 @@
             setTimeout(function(){
               document.getElementById('alert4').innerHTML="My car is a " + car.type + "<br> My car color is " + car.color
             }, 10000);
+
+          
+              document.getElementById('fruits').innerHTML=friuts[0];
+            
             
             //document.getElementById('alert2').innerHTML="Hello Team";
             //document.getElementById('alert3').innerHTML="Hello Team";
